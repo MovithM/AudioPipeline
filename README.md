@@ -10,14 +10,14 @@ Intent_pkg ->  Coordinate_ext.py,Intent_node.py (Pretrained model used - Intent_
 ## Dependencies
 (All nodes run inside a Python virtual environment.)
 Full dependency list is available in `requirements.txt`.
-#Wakeword Detection
+# Wakeword Detection
 - openwakeword
 - onnxruntime
 - numpy
 - sounddevice
 - scipy
 - rclpy
-#Speech-to-Text (FastWhisper)
+# Speech-to-Text (FastWhisper)
 - faster-whisper
 - ctranslate2
 - torch
@@ -27,7 +27,7 @@ Full dependency list is available in `requirements.txt`.
 - sounddevice
 - scipy
 - rclpy
-#Intent & Slot Filling
+# Intent & Slot Filling
 - torch
 - transformers
 - tokenizers- scikit-learn
